@@ -1,0 +1,1 @@
+export { useGetStocks } from "./useGetStocks";

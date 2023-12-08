@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "nasdaq",
+    "slug": "nasdaq",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#191a28"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.naghamsherif.nasdaq"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.naghamsherif.nasdaq"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9d0d1b34-b49b-44cd-aea0-ea25dc4da5d8"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "1.0.0"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1b6bf947-d302-46ca-babc-6c9fd589ff67"
+    },
+    "owner": "naghamsheriff"
+  }
+}
