@@ -19,6 +19,7 @@ export default function SearchBar({
       value={value}
       placeholder="Search for stocks"
       placeholderTextColor={colors?.grayText}
+      testID="input"
     />
   );
 }

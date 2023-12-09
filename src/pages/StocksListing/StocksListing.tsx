@@ -39,6 +39,7 @@ export default function StocksListing() {
       </View>
       {(isLoading || isFetching) && !data?.pages?.[0]?.results?.length ? (
         <ActivityIndicator
+          testID="loader"
           size="large"
           color={colors?.white}
           style={styles.commonContainer}
@@ -59,6 +60,7 @@ export default function StocksListing() {
           />
           {isLoading || isFetching ? (
             <ActivityIndicator
+              testID="loader"
               size="large"
               color={colors?.white}
               style={{ paddingBottom: 12 }}
